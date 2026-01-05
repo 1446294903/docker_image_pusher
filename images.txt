@@ -10,3 +10,4 @@ alpine:3.18.12 --platform=linux/amd64
 alpine:3.18.12 --platform=linux/arm64
 eclipse-temurin:11-jre-jammy --platform=linux/amd64
 eclipse-temurin:11-jre-jammy --platform=linux/arm64
+
