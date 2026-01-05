@@ -6,8 +6,8 @@
 #--platform=linux/arm64 xiaoyaliu/alist
 
 #构建需要的基础就像
-alpine:3.18.12 --platform=linux/amd64 testliang
-alpine:3.18.12 --platform=linux/arm64 testliang
-eclipse-temurin:11-jre-jammy --platform=linux/amd64 testliang
-eclipse-temurin:11-jre-jammy --platform=linux/arm64 testliang
+--platform=linux/amd64 testliang alpine:3.18.12 
+--platform=linux/arm64 testliang alpine:3.18.12 
+--platform=linux/amd64 testliang eclipse-temurin:11-jre-jammy 
+--platform=linux/arm64 testliang eclipse-temurin:11-jre-jammy 
 
